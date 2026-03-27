@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.border-run {
+  position: relative;
+  padding: 3px;
+  overflow: hidden;
+}
+
+.border-run::before {
+  content: "";
+  position: absolute;
+  inset: -50%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    transparent 300deg,
+    #3b82f6 330deg,
+    transparent 360deg
+  );
+  animation: spinBorder 3s linear infinite;
+}
+
+.border-run::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  background: #08142b;
+}
+
+@keyframes spinBorder {
+  to {
+    transform: rotate(360deg);
+  }
+}
