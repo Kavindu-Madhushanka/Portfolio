@@ -39,12 +39,6 @@ const Skills = () => {
           skills={["Git", "GitHub", "Postman", "VS Code", "Visual Studio"]}
           icon={<FaTools />}
         />
-
-        <SkillCard
-          title="Tools"
-          skills={["Git", "GitHub", "Postman", "VS Code", "Visual Studio"]}
-          icon={<FaTools />}
-        />
       </div>
     </section>
   );
