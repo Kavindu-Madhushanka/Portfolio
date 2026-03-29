@@ -2,7 +2,7 @@ import myphoto from "../myphoto.jpg";
 const link = ["home", "about", "skills", "projects", "resume", "contact"];
 const Navbar = () => {
   return (
-    <header className="sticky top-0 bg-[#08142b]/90 backdrop-blur border-b border-white/10 z-50 text-lg ">
+    <header className=" fixed top-0 left-0 w-full z-[999] border-b border-white/10 bg-[#08142b]/90 backdrop-blur-md ">
       <div className="flex items-center justify-between px-6 py-4 mx-auto max-w-7xl">
         <div className="flex gap-4">
           <img src={myphoto} className="w-10 h-10 rounded-full" />
