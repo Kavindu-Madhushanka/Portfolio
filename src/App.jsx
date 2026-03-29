@@ -9,7 +9,7 @@ import Contact from "./assets/component/Contact";
 import Footer from "./assets/component/Footer";
 const App = () => {
   return (
-    <div className="bg-[#08142b] text-white scroll-smooth">
+    <div className="bg-[#08142b] text-white scroll-smooth static">
       <Navbar />
       <Hero />
       <About />
