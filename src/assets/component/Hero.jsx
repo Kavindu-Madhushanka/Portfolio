@@ -51,7 +51,7 @@ const Hero = () => {
 
         <div className="flex justify-center md:justify-end">
           <div className="relative">
-            <div className="relative w-80 h-80 border-run rounded-3xl">
+            <div className="relative w-85 h-85 border-run rounded-3xl">
               <div className="relative z-10 w-full h-full overflow-hidden rounded-3xl bg-[#08142b]">
                 <img
                   src={myphoto}
