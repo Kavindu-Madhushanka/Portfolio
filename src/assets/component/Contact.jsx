@@ -40,17 +40,17 @@ const Contact = () => {
           <div className="space-y-4">
             <ContactCard
               title="Email"
-              value="yourmail@example.com"
+              value="madu10275@gmail.com"
               icon={<MdEmail />}
             />
             <ContactCard
               title="GitHub"
-              value="github.com/yourusername"
+              value="https://github.com/Kavindu-Madhushanka"
               icon={<FaGithub />}
             />
             <ContactCard
               title="LinkedIn"
-              value="linkedin.com/in/yourprofile"
+              value="https://www.linkedin.com/in/kavindu-madushankha/"
               icon={<FaLinkedin />}
             />
           </div>
